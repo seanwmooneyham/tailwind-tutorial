@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Tailwind video 1: https://www.youtube.com/watch?v=cg1qbkG0KRI&t=1544s
+
 ## Available Scripts
 
 In the project directory, you can run:

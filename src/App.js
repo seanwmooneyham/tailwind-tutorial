@@ -1,23 +1,45 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-row h-screen">
+      <div className="flex flex-col justify-between items-center w-16 p-4 bg-gray-200">
+        <div className="flex flex-col space-y-4">
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+        </div>
+        <div className="flex flex-col space-y-4">
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+          <a>
+            <div className="rounded-full bg-gray-400 w-8 h-8"></div>
+          </a>
+        </div>
+      </div>
+      <div className="w-64">submenu</div>
+      <div className="flex-auto bg-blue-200">main content</div>
     </div>
   );
 }
